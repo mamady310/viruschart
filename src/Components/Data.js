@@ -5,11 +5,13 @@ const Data = ({ country, cases, recovered, deaths }) => {
         <div className="data">
             <h1>{ country }</h1>
             <ul>
-                <li>{ cases }</li>
-                <li>{ recovered }</li>
-                <li>{ deaths }</li>
+                <li>Total Cases: { cases }</li>
+                <li>Total Recovered: { recovered }</li>
+                <li>Total Deaths: { deaths }</li>
             </ul>
 
         </div>
     )
 }
+
+export default Data;
